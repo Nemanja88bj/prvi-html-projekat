@@ -1,0 +1,48 @@
+
+body{
+    
+    background-image: url(images/wimbledon-tennis-openroof.jpg);
+    background-size: cover;
+}
+
+table {
+    width: 80%;
+    
+}
+
+table, th, td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    opacity: 0.95;
+}
+
+th, td{
+    
+    padding: 20px;
+    text-align: center;
+}
+
+th{
+    
+    background-color: lightcoral;
+    
+    
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+#header{
+    background-color: cornflowerblue;
+    color: white;
+}
+img{
+    width: 70px;
+    height: 40px;
+    
+    }
